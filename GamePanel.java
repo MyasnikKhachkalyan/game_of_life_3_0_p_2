@@ -32,6 +32,8 @@ public class GamePanel extends JPanel {
                         }
                     }
                 }
+                g.setColor(Color.BLACK);
+                g.drawString("Generation: " + world.getGenerationCount(),6,this.getHeight()-12);
             }
             else{
                 g.setColor(java.awt.Color.WHITE);
@@ -50,6 +52,8 @@ public class GamePanel extends JPanel {
                         }
                     }
                 }
+                g.setColor(Color.BLACK);
+                g.drawString("Generation: " + world.getGenerationCount(),6,this.getHeight()-12);
             }
         }
     }
